@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3881849C1D17903D0021F02B /* Section0CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3881849A1D17903D0021F02B /* Section0CollectionViewCell.m */; };
+		3881849D1D17903D0021F02B /* Section0CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3881849B1D17903D0021F02B /* Section0CollectionViewCell.xib */; };
+		388184A41D17B6830021F02B /* Section1CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 388184A21D17B6830021F02B /* Section1CollectionViewCell.m */; };
+		388184A51D17B6830021F02B /* Section1CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 388184A31D17B6830021F02B /* Section1CollectionViewCell.xib */; };
+		38904A8B1D14927E006415F7 /* QXBModelTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 38904A8A1D14927E006415F7 /* QXBModelTool.m */; };
+		38904A8F1D149872006415F7 /* ProductModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38904A8E1D149872006415F7 /* ProductModel.m */; };
+		38904A921D149C84006415F7 /* IndexImgModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38904A911D149C84006415F7 /* IndexImgModel.m */; };
+		38904A951D149DE4006415F7 /* indexHotModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38904A941D149DE4006415F7 /* indexHotModel.m */; };
+		38BF0E851D148A4C00D62ACA /* FMBTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BF0E7A1D148A4C00D62ACA /* FMBTabbarViewController.m */; };
+		38BF0E861D148A4C00D62ACA /* FreshGoingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BF0E7C1D148A4C00D62ACA /* FreshGoingViewController.m */; };
+		38BF0E871D148A4C00D62ACA /* HeadCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BF0E7E1D148A4C00D62ACA /* HeadCollectionReusableView.m */; };
+		38BF0E881D148A4C00D62ACA /* LuckyCrashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BF0E801D148A4C00D62ACA /* LuckyCrashViewController.m */; };
+		38BF0E891D148A4C00D62ACA /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BF0E821D148A4C00D62ACA /* MeViewController.m */; };
+		38BF0E8A1D148A4C00D62ACA /* ShoppingCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BF0E841D148A4C00D62ACA /* ShoppingCartViewController.m */; };
+		38DE241B1D1488A40045B77C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DE241A1D1488A40045B77C /* main.m */; };
+		38DE241E1D1488A40045B77C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DE241D1D1488A40045B77C /* AppDelegate.m */; };
+		38DE24211D1488A40045B77C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DE24201D1488A40045B77C /* ViewController.m */; };
+		38DE24241D1488A40045B77C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38DE24221D1488A40045B77C /* Main.storyboard */; };
+		38DE24261D1488A40045B77C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38DE24251D1488A40045B77C /* Images.xcassets */; };
+		38DE24291D1488A40045B77C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38DE24271D1488A40045B77C /* LaunchScreen.xib */; };
+		38DE24351D1488A40045B77C /* MoneyComeBabyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DE24341D1488A40045B77C /* MoneyComeBabyTests.m */; };
+		AB825E88C477C19A96A24EA4 /* libPods-MoneyComeBabyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96CF8D8C621212507650E343 /* libPods-MoneyComeBabyTests.a */; };
+		C696A3205CB3825CF9ADC367 /* libPods-MoneyComeBaby.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA33C8A3ED79173EA842CE65 /* libPods-MoneyComeBaby.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38DE242F1D1488A40045B77C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38DE240D1D1488A40045B77C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38DE24141D1488A40045B77C;
+			remoteInfo = MoneyComeBaby;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		388184991D17903D0021F02B /* Section0CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Section0CollectionViewCell.h; sourceTree = "<group>"; };
+		3881849A1D17903D0021F02B /* Section0CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Section0CollectionViewCell.m; sourceTree = "<group>"; };
+		3881849B1D17903D0021F02B /* Section0CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Section0CollectionViewCell.xib; sourceTree = "<group>"; };
+		388184A11D17B6830021F02B /* Section1CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Section1CollectionViewCell.h; sourceTree = "<group>"; };
+		388184A21D17B6830021F02B /* Section1CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Section1CollectionViewCell.m; sourceTree = "<group>"; };
+		388184A31D17B6830021F02B /* Section1CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Section1CollectionViewCell.xib; sourceTree = "<group>"; };
+		38904A891D14927E006415F7 /* QXBModelTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QXBModelTool.h; sourceTree = "<group>"; };
+		38904A8A1D14927E006415F7 /* QXBModelTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QXBModelTool.m; sourceTree = "<group>"; };
+		38904A8D1D149872006415F7 /* ProductModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductModel.h; sourceTree = "<group>"; };
+		38904A8E1D149872006415F7 /* ProductModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductModel.m; sourceTree = "<group>"; };
+		38904A901D149C84006415F7 /* IndexImgModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexImgModel.h; sourceTree = "<group>"; };
+		38904A911D149C84006415F7 /* IndexImgModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexImgModel.m; sourceTree = "<group>"; };
+		38904A931D149DE4006415F7 /* indexHotModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = indexHotModel.h; sourceTree = "<group>"; };
+		38904A941D149DE4006415F7 /* indexHotModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = indexHotModel.m; sourceTree = "<group>"; };
+		38BF0E791D148A4C00D62ACA /* FMBTabbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMBTabbarViewController.h; sourceTree = "<group>"; };
+		38BF0E7A1D148A4C00D62ACA /* FMBTabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMBTabbarViewController.m; sourceTree = "<group>"; };
+		38BF0E7B1D148A4C00D62ACA /* FreshGoingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreshGoingViewController.h; sourceTree = "<group>"; };
+		38BF0E7C1D148A4C00D62ACA /* FreshGoingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FreshGoingViewController.m; sourceTree = "<group>"; };
+		38BF0E7D1D148A4C00D62ACA /* HeadCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadCollectionReusableView.h; sourceTree = "<group>"; };
+		38BF0E7E1D148A4C00D62ACA /* HeadCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadCollectionReusableView.m; sourceTree = "<group>"; };
+		38BF0E7F1D148A4C00D62ACA /* LuckyCrashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuckyCrashViewController.h; sourceTree = "<group>"; };
+		38BF0E801D148A4C00D62ACA /* LuckyCrashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LuckyCrashViewController.m; sourceTree = "<group>"; };
+		38BF0E811D148A4C00D62ACA /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		38BF0E821D148A4C00D62ACA /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		38BF0E831D148A4C00D62ACA /* ShoppingCartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingCartViewController.h; sourceTree = "<group>"; };
+		38BF0E841D148A4C00D62ACA /* ShoppingCartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCartViewController.m; sourceTree = "<group>"; };
+		38BF0E8B1D148A7500D62ACA /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		38DE24151D1488A40045B77C /* MoneyComeBaby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyComeBaby.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38DE24191D1488A40045B77C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38DE241A1D1488A40045B77C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		38DE241C1D1488A40045B77C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		38DE241D1D1488A40045B77C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		38DE241F1D1488A40045B77C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		38DE24201D1488A40045B77C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		38DE24231D1488A40045B77C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38DE24251D1488A40045B77C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		38DE24281D1488A40045B77C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		38DE242E1D1488A40045B77C /* MoneyComeBabyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyComeBabyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38DE24331D1488A40045B77C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38DE24341D1488A40045B77C /* MoneyComeBabyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoneyComeBabyTests.m; sourceTree = "<group>"; };
+		96CF8D8C621212507650E343 /* libPods-MoneyComeBabyTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoneyComeBabyTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2A9CD12D22DEC3CD1B03E7F /* Pods-MoneyComeBaby.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyComeBaby.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoneyComeBaby/Pods-MoneyComeBaby.debug.xcconfig"; sourceTree = "<group>"; };
+		AA353C246AEEF3678C0B339A /* Pods-MoneyComeBabyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyComeBabyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoneyComeBabyTests/Pods-MoneyComeBabyTests.release.xcconfig"; sourceTree = "<group>"; };
+		B260DD9FC82DB69CCB58B16A /* Pods-MoneyComeBabyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyComeBabyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoneyComeBabyTests/Pods-MoneyComeBabyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA33C8A3ED79173EA842CE65 /* libPods-MoneyComeBaby.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoneyComeBaby.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA7BA8C8C0F6457C72C55DEF /* Pods-MoneyComeBaby.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyComeBaby.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoneyComeBaby/Pods-MoneyComeBaby.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38DE24121D1488A40045B77C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C696A3205CB3825CF9ADC367 /* libPods-MoneyComeBaby.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38DE242B1D1488A40045B77C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB825E88C477C19A96A24EA4 /* libPods-MoneyComeBabyTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		388184981D17902E0021F02B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				388184991D17903D0021F02B /* Section0CollectionViewCell.h */,
+				3881849A1D17903D0021F02B /* Section0CollectionViewCell.m */,
+				3881849B1D17903D0021F02B /* Section0CollectionViewCell.xib */,
+				388184A11D17B6830021F02B /* Section1CollectionViewCell.h */,
+				388184A21D17B6830021F02B /* Section1CollectionViewCell.m */,
+				388184A31D17B6830021F02B /* Section1CollectionViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		38904A871D149268006415F7 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				38904A881D14927E006415F7 /* QXBModelTool */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		38904A881D14927E006415F7 /* QXBModelTool */ = {
+			isa = PBXGroup;
+			children = (
+				38904A891D14927E006415F7 /* QXBModelTool.h */,
+				38904A8A1D14927E006415F7 /* QXBModelTool.m */,
+			);
+			path = QXBModelTool;
+			sourceTree = "<group>";
+		};
+		38904A8C1D149852006415F7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				38904A8D1D149872006415F7 /* ProductModel.h */,
+				38904A8E1D149872006415F7 /* ProductModel.m */,
+				38904A901D149C84006415F7 /* IndexImgModel.h */,
+				38904A911D149C84006415F7 /* IndexImgModel.m */,
+				38904A931D149DE4006415F7 /* indexHotModel.h */,
+				38904A941D149DE4006415F7 /* indexHotModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		38BF0E781D148A4C00D62ACA /* Viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				38BF0E791D148A4C00D62ACA /* FMBTabbarViewController.h */,
+				38BF0E7A1D148A4C00D62ACA /* FMBTabbarViewController.m */,
+				38BF0E7B1D148A4C00D62ACA /* FreshGoingViewController.h */,
+				38BF0E7C1D148A4C00D62ACA /* FreshGoingViewController.m */,
+				38BF0E7D1D148A4C00D62ACA /* HeadCollectionReusableView.h */,
+				38BF0E7E1D148A4C00D62ACA /* HeadCollectionReusableView.m */,
+				38BF0E7F1D148A4C00D62ACA /* LuckyCrashViewController.h */,
+				38BF0E801D148A4C00D62ACA /* LuckyCrashViewController.m */,
+				38BF0E811D148A4C00D62ACA /* MeViewController.h */,
+				38BF0E821D148A4C00D62ACA /* MeViewController.m */,
+				38BF0E831D148A4C00D62ACA /* ShoppingCartViewController.h */,
+				38BF0E841D148A4C00D62ACA /* ShoppingCartViewController.m */,
+			);
+			path = Viewcontrollers;
+			sourceTree = "<group>";
+		};
+		38DE240C1D1488A40045B77C = {
+			isa = PBXGroup;
+			children = (
+				38DE24171D1488A40045B77C /* MoneyComeBaby */,
+				38DE24311D1488A40045B77C /* MoneyComeBabyTests */,
+				38DE24161D1488A40045B77C /* Products */,
+				C7B0387A61904F68BAB2AFDA /* Pods */,
+				BC3B19F6A0F65EC984CF2C89 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		38DE24161D1488A40045B77C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38DE24151D1488A40045B77C /* MoneyComeBaby.app */,
+				38DE242E1D1488A40045B77C /* MoneyComeBabyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38DE24171D1488A40045B77C /* MoneyComeBaby */ = {
+			isa = PBXGroup;
+			children = (
+				388184981D17902E0021F02B /* Views */,
+				38904A8C1D149852006415F7 /* Model */,
+				38904A871D149268006415F7 /* Lib */,
+				38BF0E781D148A4C00D62ACA /* Viewcontrollers */,
+				38DE241C1D1488A40045B77C /* AppDelegate.h */,
+				38DE241D1D1488A40045B77C /* AppDelegate.m */,
+				38DE241F1D1488A40045B77C /* ViewController.h */,
+				38DE24201D1488A40045B77C /* ViewController.m */,
+				38DE24221D1488A40045B77C /* Main.storyboard */,
+				38DE24251D1488A40045B77C /* Images.xcassets */,
+				38DE24271D1488A40045B77C /* LaunchScreen.xib */,
+				38DE24181D1488A40045B77C /* Supporting Files */,
+			);
+			path = MoneyComeBaby;
+			sourceTree = "<group>";
+		};
+		38DE24181D1488A40045B77C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38BF0E8B1D148A7500D62ACA /* PrefixHeader.pch */,
+				38DE24191D1488A40045B77C /* Info.plist */,
+				38DE241A1D1488A40045B77C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38DE24311D1488A40045B77C /* MoneyComeBabyTests */ = {
+			isa = PBXGroup;
+			children = (
+				38DE24341D1488A40045B77C /* MoneyComeBabyTests.m */,
+				38DE24321D1488A40045B77C /* Supporting Files */,
+			);
+			path = MoneyComeBabyTests;
+			sourceTree = "<group>";
+		};
+		38DE24321D1488A40045B77C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38DE24331D1488A40045B77C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC3B19F6A0F65EC984CF2C89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA33C8A3ED79173EA842CE65 /* libPods-MoneyComeBaby.a */,
+				96CF8D8C621212507650E343 /* libPods-MoneyComeBabyTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7B0387A61904F68BAB2AFDA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2A9CD12D22DEC3CD1B03E7F /* Pods-MoneyComeBaby.debug.xcconfig */,
+				BA7BA8C8C0F6457C72C55DEF /* Pods-MoneyComeBaby.release.xcconfig */,
+				B260DD9FC82DB69CCB58B16A /* Pods-MoneyComeBabyTests.debug.xcconfig */,
+				AA353C246AEEF3678C0B339A /* Pods-MoneyComeBabyTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38DE24141D1488A40045B77C /* MoneyComeBaby */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38DE24381D1488A40045B77C /* Build configuration list for PBXNativeTarget "MoneyComeBaby" */;
+			buildPhases = (
+				955ED1B19D122CF4E7EEF160 /* [CP] Check Pods Manifest.lock */,
+				38DE24111D1488A40045B77C /* Sources */,
+				38DE24121D1488A40045B77C /* Frameworks */,
+				38DE24131D1488A40045B77C /* Resources */,
+				CE2A971557DA909B8ADDA5FC /* [CP] Embed Pods Frameworks */,
+				734B37F9E4625FCA8A681936 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoneyComeBaby;
+			productName = MoneyComeBaby;
+			productReference = 38DE24151D1488A40045B77C /* MoneyComeBaby.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38DE242D1D1488A40045B77C /* MoneyComeBabyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38DE243B1D1488A40045B77C /* Build configuration list for PBXNativeTarget "MoneyComeBabyTests" */;
+			buildPhases = (
+				ACE6137E4617E61A615629D0 /* [CP] Check Pods Manifest.lock */,
+				38DE242A1D1488A40045B77C /* Sources */,
+				38DE242B1D1488A40045B77C /* Frameworks */,
+				38DE242C1D1488A40045B77C /* Resources */,
+				F4E4C00EA3B772D3FA35F618 /* [CP] Embed Pods Frameworks */,
+				DE2C00B83DC96AA5774442AE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38DE24301D1488A40045B77C /* PBXTargetDependency */,
+			);
+			name = MoneyComeBabyTests;
+			productName = MoneyComeBabyTests;
+			productReference = 38DE242E1D1488A40045B77C /* MoneyComeBabyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38DE240D1D1488A40045B77C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = JIM;
+				TargetAttributes = {
+					38DE24141D1488A40045B77C = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					38DE242D1D1488A40045B77C = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 38DE24141D1488A40045B77C;
+					};
+				};
+			};
+			buildConfigurationList = 38DE24101D1488A40045B77C /* Build configuration list for PBXProject "MoneyComeBaby" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38DE240C1D1488A40045B77C;
+			productRefGroup = 38DE24161D1488A40045B77C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38DE24141D1488A40045B77C /* MoneyComeBaby */,
+				38DE242D1D1488A40045B77C /* MoneyComeBabyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38DE24131D1488A40045B77C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38DE24241D1488A40045B77C /* Main.storyboard in Resources */,
+				388184A51D17B6830021F02B /* Section1CollectionViewCell.xib in Resources */,
+				38DE24291D1488A40045B77C /* LaunchScreen.xib in Resources */,
+				38DE24261D1488A40045B77C /* Images.xcassets in Resources */,
+				3881849D1D17903D0021F02B /* Section0CollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38DE242C1D1488A40045B77C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		734B37F9E4625FCA8A681936 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoneyComeBaby/Pods-MoneyComeBaby-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		955ED1B19D122CF4E7EEF160 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ACE6137E4617E61A615629D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CE2A971557DA909B8ADDA5FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoneyComeBaby/Pods-MoneyComeBaby-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE2C00B83DC96AA5774442AE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoneyComeBabyTests/Pods-MoneyComeBabyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4E4C00EA3B772D3FA35F618 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoneyComeBabyTests/Pods-MoneyComeBabyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38DE24111D1488A40045B77C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38BF0E851D148A4C00D62ACA /* FMBTabbarViewController.m in Sources */,
+				38904A8B1D14927E006415F7 /* QXBModelTool.m in Sources */,
+				38DE24211D1488A40045B77C /* ViewController.m in Sources */,
+				38DE241E1D1488A40045B77C /* AppDelegate.m in Sources */,
+				388184A41D17B6830021F02B /* Section1CollectionViewCell.m in Sources */,
+				38BF0E8A1D148A4C00D62ACA /* ShoppingCartViewController.m in Sources */,
+				38904A8F1D149872006415F7 /* ProductModel.m in Sources */,
+				38DE241B1D1488A40045B77C /* main.m in Sources */,
+				38BF0E861D148A4C00D62ACA /* FreshGoingViewController.m in Sources */,
+				38904A921D149C84006415F7 /* IndexImgModel.m in Sources */,
+				38BF0E871D148A4C00D62ACA /* HeadCollectionReusableView.m in Sources */,
+				38BF0E891D148A4C00D62ACA /* MeViewController.m in Sources */,
+				38904A951D149DE4006415F7 /* indexHotModel.m in Sources */,
+				38BF0E881D148A4C00D62ACA /* LuckyCrashViewController.m in Sources */,
+				3881849C1D17903D0021F02B /* Section0CollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38DE242A1D1488A40045B77C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38DE24351D1488A40045B77C /* MoneyComeBabyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38DE24301D1488A40045B77C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38DE24141D1488A40045B77C /* MoneyComeBaby */;
+			targetProxy = 38DE242F1D1488A40045B77C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38DE24221D1488A40045B77C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38DE24231D1488A40045B77C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38DE24271D1488A40045B77C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38DE24281D1488A40045B77C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38DE24361D1488A40045B77C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = /Users/jim/Desktop/MoneyComeBaby/MoneyComeBaby/PrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38DE24371D1488A40045B77C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREFIX_HEADER = /Users/jim/Desktop/MoneyComeBaby/MoneyComeBaby/PrefixHeader.pch;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38DE24391D1488A40045B77C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2A9CD12D22DEC3CD1B03E7F /* Pods-MoneyComeBaby.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MoneyComeBaby/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		38DE243A1D1488A40045B77C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA7BA8C8C0F6457C72C55DEF /* Pods-MoneyComeBaby.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MoneyComeBaby/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		38DE243C1D1488A40045B77C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B260DD9FC82DB69CCB58B16A /* Pods-MoneyComeBabyTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MoneyComeBabyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoneyComeBaby.app/MoneyComeBaby";
+			};
+			name = Debug;
+		};
+		38DE243D1D1488A40045B77C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA353C246AEEF3678C0B339A /* Pods-MoneyComeBabyTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MoneyComeBabyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoneyComeBaby.app/MoneyComeBaby";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38DE24101D1488A40045B77C /* Build configuration list for PBXProject "MoneyComeBaby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38DE24361D1488A40045B77C /* Debug */,
+				38DE24371D1488A40045B77C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38DE24381D1488A40045B77C /* Build configuration list for PBXNativeTarget "MoneyComeBaby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38DE24391D1488A40045B77C /* Debug */,
+				38DE243A1D1488A40045B77C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38DE243B1D1488A40045B77C /* Build configuration list for PBXNativeTarget "MoneyComeBabyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38DE243C1D1488A40045B77C /* Debug */,
+				38DE243D1D1488A40045B77C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38DE240D1D1488A40045B77C /* Project object */;
+}

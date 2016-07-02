@@ -1,0 +1,177 @@
+//
+//  PrefixHeader.pch
+//  FMB
+//
+//  Created by jason on 15/11/13.
+//  Copyright (c) 2015年 ICompany. All rights reserved.
+//
+
+#ifndef FMB_PrefixHeader_pch
+#define FMB_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define Server @"http://fmb.fmsecret.cn/fmb-openapi-server/rest/"//正式的
+//#define Server @"http://121.41.117.81:8081/fmb-openapi-server/rest/"//小伊的
+//#define Server @"http://192.168.124.29:8080/fmb-openapi-server/rest/"//乐文
+//UI
+#define FMGetMaxX(view) CGRectGetMaxX(view.frame)
+#define FMGetMaxY(view) CGRectGetMaxY(view.frame)
+#define Auto(x) (x*SCREEN_WIDTH/414.0f)
+#define SCREEN_WIDTH ([[UIScreen mainScreen] bounds].size.width)
+#define SCREEN_HEIGHT ([[UIScreen mainScreen] bounds].size.height)
+#define FMCustomYellew [UIColor colorWithRed:252/255.0 green:210/255.0 blue:0 alpha:1]
+//System Version
+#define GetSystemVersion [[UIDevice currentDevice] systemVersion]
+#define GETTOKEN ([[NSUserDefaults standardUserDefaults] objectForKey:@"token"])
+#define GETUID ([[NSUserDefaults standardUserDefaults] objectForKey:@"ID"])
+#define GETHEAD ([[NSUserDefaults standardUserDefaults] objectForKey:@"head_pic"])
+#define AdvertKey @"adverKey"//广告数组的key
+#define BillArrKey @"billArr"//账单数组的key
+#define BillInfo @"billInfo"//账单用户资料的key
+#define ENCRYPT_KEY @"0987654321qwertyuioplkjh"
+#define GET3DESTOKEN [NSString TripleDES:[NSString stringWithFormat:@"%@&%@",GETTOKEN,GETUID] encryptOrDecrypt:kCCEncrypt withKey:ENCRYPT_KEY]
+#define ENCRYPT_KEY_bank @"9526gdgydxtxgc2010tx3b2131423523423412342"
+//RGB颜色
+#define RGBCOLOR(r,g,b) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:1]
+#define RGBACOLOR(r,g,b,a) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:(a)]
+
+
+
+//设备
+#define IS_IPHONE_4_OR_LESS (IS_IPHONE && SCREEN_MAX_LENGTH < 568.0)
+#define IS_IPHONE_5 (IS_IPHONE && SCREEN_MAX_LENGTH == 568.0)
+#define IS_IPHONE_6 (IS_IPHONE && SCREEN_MAX_LENGTH == 667.0)
+#define IS_IPHONE_6P (IS_IPHONE && SCREEN_MAX_LENGTH == 736.0)
+
+#define SCREEN_MAX_LENGTH (MAX(SCREEN_WIDTH, SCREEN_HEIGHT))
+#define SCREEN_MIN_LENGTH (MIN(SCREEN_WIDTH, SCREEN_HEIGHT))
+
+#define iOS7 ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0)
+#define iOS8 ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0)
+
+//用户
+#define Login @"user/login"
+#define Check_account @"user/check_account"
+#define Register @"user/register"
+#define Logout @"user/logout"
+#define Update_password @"user/update_password"
+#define Send_verify_code @"user/send_verify_code"//重置密码获取验证码接口
+
+//这三个废弃
+#define Get_luck_mon_list  @"welfare/get_luck_mon_list"
+#define Get_use_mon_list  @"welfare/get_use_mon_list"
+#define bind_official_luckmon  @"welfare/bind_official_luckmon"
+
+
+//我的红包
+#define My_coupons  @"welfare/my_coupons"
+#define Order_coupons  @"welfare/order_coupons"
+#define Discount_code  @"welfare/discount_code"
+
+
+//订单管理
+#define New_order  @"order/new_order"
+#define List_order  @"order/list_order"
+#define Get_order  @"order/get_order"
+#define Delete_order  @"order/delete_order"
+
+
+//购物车
+
+#define Add_cart  @"cart/add_cart"
+#define Cart_count  @"cart/cart_count"
+#define View_cart  @"cart/view_cart"
+#define Delete_cart  @"cart/delete_cart"
+
+
+
+//收货人信息
+#define All_area  @"consignee/all_area"
+#define New_consignee  @"consignee/new_consignee"
+#define List_consignee  @"consignee/list_consignee"
+#define Delete_consignee  @"consignee/delete_consignee"
+
+//银行卡
+#define Get_bank_card_list  @"fmpay/get_bank_card_list"
+#define Find_bank_card_info  @"fmpay/find_bank_card_info"
+#define Bind_bank_card  @"fmpay/bind_bank_card"
+#define Confirm_bind_bank_card  @"fmpay/confirm_bind_bank_card"
+#define Get_validate_code  @"fmpay/get_validate_code"
+#define Recharge_request  @"fmpay/recharge_request"
+#define Confirm_pay  @"fmpay/confirm_pay"
+
+//充值
+#define Deposit_order @"deposit/deposit_order"
+#define Get_deposit @"deposit/get_deposit"
+#define List_deposit @"deposit/list_deposit"
+
+//提现
+#define Withdraw_order @"withdraw/withdraw_order"
+#define Get_withdraw @"withdraw/get_withdraw"
+#define List_withdraw @"withdraw/list_withdraw"
+#define Withdraw @"fmpay/withdraw"
+
+
+#define GETphone ([[NSUserDefaults standardUserDefaults] objectForKey:@"phone"])
+#define GETcreditCard ([[NSUserDefaults standardUserDefaults] objectForKey:@"creditCard"])
+
+//产品
+#define Product_type @"product/product_type"
+#define Product_brand @"product/product_brand"
+#define List_product @"product/list_product"
+#define Product_details @"product/product_details"
+#define Introduce_pic @"product/introduce_pic"
+#define Add_comment @"product/add_comment"
+#define List_comment @"product/list_comment"
+#define My_collect @"product/my_collect"
+#define Collect_product @"product/collect_product"
+#define Faq @"product/faq"
+#define Cancel_collect @"product/cancel_collect"
+#define Introduce_text @"product/introduce_text"
+
+//广告
+#define get_banner_list @"banner/get_banner_list"
+
+//账单
+#define list_tag @"bill/list_tag"//标签
+#define save_bill @"bill/save_bill_v2"//发布账单
+#define user_bill_list @"bill/user_bill_list"//用户账单列表
+#define user_bill_info @"bill/user_bill_info"//用户账单信息
+#define delete_bill @"bill/delete_bill"//删除账单
+#define modify_bill @"bill/modify_bill"//修改账单
+#define file_upload @"bill/file_upload"//上传图片
+#define extract_money @"bill/extract_money"//领取红包
+#define user_wallet @"bill/user_wallet"//查看红包记录
+#define transter_balance @"bill/transter_balance"//一键转余额
+
+//#import "UIImageView+WebCache.h"
+//#import "UtilsObject.h"
+//#import "FMHttpTool.h"
+//#import "MEUtils.h"
+//#import "MJRefresh.h"
+//#import "MBProgressHUD.h"
+//#import "UIView+Extension.h"
+//#import "NSString+Format.h"
+//
+//#import "NSDictionary+Utils.h"
+//#import "Global.h"
+//
+#import <AFNetworking/AFNetworking.h>
+#import "QXBModelTool.h"
+
+#import "MJExtension.h"
+
+//#import "SVProgressHUD.h"
+//#import "Product.h"
+
+
+#import "ProductModel.h"
+#import "IndexImgModel.h"
+#import "indexHotModel.h"
+
+#import "UIImageView+WebCache.h"
+
+
+#endif

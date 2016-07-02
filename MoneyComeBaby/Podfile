@@ -1,0 +1,24 @@
+platform :ios, '8.0'
+inhibit_all_warnings!
+
+target 'MoneyComeBaby’ do
+
+pod 'AFNetworking' , '~> 2.0'
+pod 'SDWebImage'
+pod 'MBProgressHUD'
+
+pod 'MJExtension'
+
+
+
+  target "MoneyComeBabyTests" do
+    inherit! :search_paths
+   
+  end
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    puts "#{target.name}"
+  end
+end
